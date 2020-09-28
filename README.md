@@ -1,4 +1,12 @@
 # vue-rails-mysql-docker-compose
-## Rails
+```bash
+# create DB
+$ docker-compose run web rails db:create 
 
-## Vue
+# create vue project
+$ docker-compose run front sh
+
+$ docker-compose up -d
+```
+
+
